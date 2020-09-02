@@ -7,5 +7,5 @@
   tasks:
     - name: example copying file with owner and permissions
       copy:
-        src: /srv/myfiles/foo.conf
-        dest: /etc/foo.conf
+        src: /var/jenkins_home/workspace/ansible-2/index.jsp
+        dest: /opt/apache-tomcat-8.5.57/webapps/webapp
