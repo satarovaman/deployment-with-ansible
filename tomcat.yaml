@@ -1,0 +1,11 @@
+---
+- hosts: webservers
+  vars:
+  - warName: helloworld.war
+  - warRemotePath: /path/to/put/war
+
+  tasks:
+    - name: example copying file with owner and permissions
+      copy:
+        src: /srv/myfiles/foo.conf
+        dest: /etc/foo.conf
